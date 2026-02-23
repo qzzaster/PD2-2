@@ -1,0 +1,22 @@
+def calculate_used_mb(partitions):
+    result = []
+    
+    for p in partitions:
+        parts = p.split(";")
+        label = parts[0]
+        total_mb = int(part[2])
+        used_percent = int(parts[3])
+        
+        used_mb int(total_mb * (used_precent / 100))
+        
+        result.append({
+            "Label": label,
+            "UsedMB": used_mb
+        })
+        
+    return result
+    
+date = calculate_used_mb(partitions)
+
+for item in data:
+    print(item)
