@@ -1,0 +1,16 @@
+user_input = input("ievadi montejuma punktu: ")
+
+found = False
+
+for p in partitions:
+    parts = p.split(";")
+    label = parts[0]
+    mount = parts[1]
+    
+    if mount == user_input:
+        print(label)
+        found = True
+        break
+    
+if not found:
+    print("not found womp womp")
