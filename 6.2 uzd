@@ -18,7 +18,6 @@ def calculate_used_mb(partitions):
     return result
 
 
-# Пример входных данных
 partitions = [
     "Disk1;NTFS;1000;50",
     "Disk2;FAT32;2000;25",
