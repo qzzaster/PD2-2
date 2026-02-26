@@ -18,10 +18,6 @@ def calculate_used_mb(partitions):
     return result
 
 
-partitions = [
-    "Disk1;NTFS;1000;50",
-    "Disk2;FAT32;2000;25",
-    "Disk3;EXT4;500;80"
 ]
 
 data = calculate_used_mb(partitions)
